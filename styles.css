@@ -125,4 +125,86 @@
    font-size: 28px;
    font-weight: 700;
    letter-spacing: 0.5px;
+   margin-bottom: 8px;
+ }
+
+ .list-social {
+   list-style: none;
+
+   display: grid;
+
+   grid-template-columns: 208px 1fr;
+   gap: 15px;
+
+   margin-bottom: 15px;
+
+ }
+
+ .span-social {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   letter-spacing: 0.03em;
+   color: #2f2f37;
+ }
+
+ .item-social {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-direction: row;
+   gap: 28px;
+
+   border-radius: 16px;
+   padding: 8px 32px 8px 8px;
+   width: 168px;
+
+ }
+
+ .item-insta {
+   background: #d8def8;
+ }
+
+ .item-youtube {
+   background: #fae8ea;
+ }
+
+ .item-github {
+   background: #fffddc;
+ }
+
+ .item-facebook {
+   background: #ffe8f1;
+ }
+
+ .item-tiktok {
+   background: #e9f9f8;
+ }
+
+ .item-twitter {
+   background: #f2eef8;
+ }
+
+ .video-title {
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 129%;
+   letter-spacing: 0.02em;
+   color: #2c2c2c;
+   margin-bottom: 5px;
+ }
+
+ body {
+   background-color: #F07F2E;
+ }
+
+ .group-video {
+   position: relative;
+   align-items: center;
+   display: flex;
+ }
+
+ .icon_start {
+   position: absolute;
+   transform: translateX(350%);
  }
